@@ -1,0 +1,371 @@
+/*
+ * Author: Gurkirat Randhawa
+ * Date: 5/27/2018
+ * Description: CSS styling for Final Project
+ */
+
+/* Universal */
+#dndLogo
+{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    opacity: .85;
+}
+
+.nav.navbar-nav li a
+{
+    color: white;
+    opacity: .85;
+}
+
+.nav.navbar-nav li a:hover
+{
+    border-bottom: 1px solid white;
+    max-height: 40px;
+}
+
+html, body
+{
+    background-image: url("images/background.jpg");
+    font-family: 'Quattrocento', serif;
+    height: 100%;
+}
+
+/* Utilities */
+.utility
+{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+    border: 2px solid black;
+    border-top: none;
+    margin: 0 auto;
+    background-color: rgb(255, 216, 168);
+}
+
+#advanced
+{
+    padding-top: 5px;
+}
+
+.initInput
+{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#characterAdd
+{
+    margin-left: -25px;
+    font-size: 14px;
+}
+
+#remAll
+{
+    margin-left: -80px;
+    font-size: 14px;
+}
+
+#newhp
+{
+    position: relative;
+    font-size: .5em;
+    margin-left: 5%;
+    margin-top: 1%;
+    display: inline-table;
+    top: -.3em;
+}
+
+#changeHP
+{
+    position: relative;
+    font-size: .55em;
+    margin-left: 5%;
+    margin-top: 1%;
+    display:inline-table;
+    top: -.3em;
+    padding-bottom: 1.2px;
+}
+
+#rollText
+{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+hr
+{
+    margin-top: 2px;
+    border: 0; 
+    height: 1px; 
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.toolButtons
+{
+    margin: 5px;
+    margin-bottom: 30px;
+    border:1px solid black;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.globalinit 
+{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0;
+    margin-top: 10px;
+    font-size: 1.6em;
+    padding-top: 15px;
+}
+
+.saveRow
+{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0;
+    margin-top: 10px;
+    font-size: 1.6em;
+    padding-top: 15px;
+}
+
+.saveRow span
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+  
+.remove 
+{
+    border: 0;
+}
+  
+.alert 
+{
+    margin: 0;
+    padding-bottom: 0;
+}
+  
+.disabledinit 
+{
+    background-color: #000000;
+}
+  
+.initalert 
+{
+    color: #c0392b;
+    text-align: center;
+    padding: 15px 0;
+}
+
+#hptext
+{
+    padding-left: 40px;
+    margin-left: -74%;
+    margin-right: 5px;
+}
+  
+#hptag 
+{
+    color: #c0392b;
+}
+  
+.glow 
+{
+    box-shadow: 0px 0px 10px #c0392b;
+}
+  
+.btnClose 
+{
+    float: right;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    font-size: 16px;
+}
+  
+.trackercontainer 
+{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#massSave
+{
+    padding-top: 60px;
+}
+
+#initLabel span p
+{
+    margin-right: 10px;
+}
+
+.saveInputs
+{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#saved
+{
+    color: green;
+}
+
+#failed
+{
+    color: red;
+}
+
+/* Character Sheets */
+#characterSlideShow
+{
+    margin-top: 5%;
+}
+
+.carousel-inner img
+{
+    padding-top: 50px;
+    margin: 0 auto;
+    max-height: 600px;
+    padding-bottom: 15px;
+}
+
+.carousel-caption
+{
+    position: relative;
+    text-align: left;
+    margin-top: 2%;
+    width: 50%;
+    text-shadow: 2px 2px black;
+    transform: translateX(12%);
+    background-color: rgba(0, 0, 0, 0.301);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.carousel-caption a
+{
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+/* Class Info */
+.listHolder
+{
+    height: 100%;
+    width: 100%;
+}
+
+.listMain
+{
+    margin: 0 auto;
+    padding-top: 70px;
+    max-width: 1000px;
+    min-height: 89.6%;
+    text-align: left;
+    font-size: 120%;
+    background-color: rgba(255, 216, 168, 0.781);
+    display: block;
+    overflow: auto;
+}
+
+.listMain li
+{
+    margin-bottom: 10px;
+    float: left;
+    clear: both;
+}
+
+ul ul
+{
+    margin-left: -1.5em;
+}
+
+ul ul ul
+{
+    margin-left: -1.5em;
+}
+
+tr
+{
+    border-bottom: 1px solid black;
+}
+
+tr td, th
+{
+    border-right: 1px solid black;
+}
+
+.listMain li ul
+{
+    display: none;
+    list-style-type: disclosure-closed;
+}
+
+table
+{
+    border: 1px solid black;
+    margin-right: 1%;
+}
+
+footer
+{
+    max-width: 1000px;
+    min-height: 100px;
+    position: relative;
+    margin: 0 auto;
+    background: url("https://img00.deviantart.net/076c/i/2018/127/3/c/rise_of_the_dragon_master_screen_by_charro_art-dcawkhi.jpg") 100% 62%;
+}
+
+/* Text toggles */
+.closed
+{
+    list-style-type: disclosure-closed;
+}
+
+.closed:hover
+{
+    border-bottom: 1px solid black;
+}
+
+.expanded
+{
+    list-style-type: disclosure-open;
+}
+
+/* References */
+#refWrapper
+{
+    max-width: 1000px;
+    background-color: rgb(255, 216, 168);
+    margin: 0 auto;
+    height: 100%;
+}
+
+div h3
+{
+    padding-top: 70px;
+    text-align: center;
+}
+
+#art
+{
+    text-align: center;
+    overflow: auto;
+    max-height: 120px;
+    border-top: 1px solid black;
+    padding-top: 5px;
+    border-bottom: 1px solid black;
+}
+
+#dnd
+{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
